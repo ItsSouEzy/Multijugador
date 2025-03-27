@@ -39,7 +39,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
        Debug.Log("Te has metido papu");
 
-        PhotonNetwork.Instantiate("Player", Vector3.up, Quaternion.identity);
+        PhotonNetwork.Instantiate("Player 1", Vector3.up, Quaternion.identity);
     }
 
    
