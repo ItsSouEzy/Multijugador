@@ -14,4 +14,11 @@ public class Menu : MonoBehaviour
     
     }
 
+    public void QuitGame()
+    {
+        Debug.Log("Adios papu");
+        //Application.Quit();
+
+    }
+
 }
